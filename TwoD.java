@@ -6,15 +6,16 @@ class TwoD{
    	Scanner input=new Scanner(System.in);
    	for(i=0;i<2;i++){
    		for(j=0;j<3;j++){
+   		System.out.print(i+" "+j+" ");
    			a[i][j]=input.nextInt();
    		}
    	}
    	System.out.println("Output Matrix");
    	for(i=0;i<2;i++){
-   	   System.out.println();
    	   for(j=0;j<3;j++){
-   	      System.out.println(a[i][j]+" ");
+   	      System.out.print(a[i][j]+" ");
    	   }
+   	   System.out.print("\n");
    	}
    }
 }
